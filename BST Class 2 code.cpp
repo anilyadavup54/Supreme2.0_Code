@@ -1,7 +1,6 @@
 #include <iostream>
 #include<queue>
 using namespace std;
-
 class Node{
 	public:
 	int data;
@@ -14,7 +13,6 @@ class Node{
 		this->right = NULL;
 	}
 };
-
 Node* insertIntoBST(Node* root, int data) {
 	if(root == NULL) {
 		root = new Node(data);
